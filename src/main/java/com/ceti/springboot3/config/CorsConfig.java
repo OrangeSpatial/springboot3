@@ -12,8 +12,6 @@ import java.util.Collections;
 /**
  * CORS 资源共享配置
  *
- * @author haoxr
- * @since 2023/4/17
  */
 @Configuration
 public class CorsConfig {

@@ -3,8 +3,6 @@ package com.ceti.springboot3.common.constant;
 /**
  * 系统常量
  *
- * @author haoxr
- * @since 1.0.0
  */
 public interface SystemConstants {
 
