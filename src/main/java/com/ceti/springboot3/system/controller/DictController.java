@@ -66,9 +66,9 @@ public class DictController {
     @PutMapping("/{id}")
     public Result<?> updateDict(
             @PathVariable Long id,
-            @RequestBody DictForm DictForm
+            @RequestBody DictForm dictForm
     ) {
-        boolean status = dictService.updateDict(id, DictForm);
+        boolean status = dictService.updateDict(id, dictForm);
         return Result.judge(status);
     }
 
