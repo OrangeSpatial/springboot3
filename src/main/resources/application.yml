@@ -3,3 +3,7 @@ spring:
     name: springboot3
   profiles:
     active: dev
+
+# ? banner.txt ?????????? @project.version@ ? pom.xml ??
+project:
+  version: @project.version@

@@ -17,6 +17,14 @@ import java.util.List;
 public interface UserService extends IService<User> {
 
     /**
+     * 用户登陆
+     * @param username 用户名
+     * @param password 密码
+     * @return
+     */
+    String login(String username, String password);
+
+    /**
      * 用户分页列表
      *
      * @return

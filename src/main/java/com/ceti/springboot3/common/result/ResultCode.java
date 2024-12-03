@@ -25,6 +25,7 @@ public enum ResultCode implements IResultCode, Serializable {
     USER_NOT_EXIST("A0201", "用户不存在"),
     USER_ACCOUNT_LOCKED("A0202", "用户账户被冻结"),
     USER_ACCOUNT_INVALID("A0203", "用户账户已作废"),
+    USERNAME_EXIST("A0204", "该用户名已存在"),
 
     USERNAME_OR_PASSWORD_ERROR("A0210", "用户名或密码错误"),
     PASSWORD_ENTER_EXCEED_LIMIT("A0211", "用户输入密码次数超限"),
